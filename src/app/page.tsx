@@ -3,6 +3,8 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, Download, Github, Linkedin, Mail } from 'lucide-react';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import portrait from '@/public/Claudi.jpg';
+
 
 export default function Home() {
   const portraitImage = PlaceHolderImages.find(p => p.id === 'portrait');
@@ -67,13 +69,14 @@ export default function Home() {
               <div className="relative flex justify-center items-center animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'backwards' }}>
                   <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden shadow-2xl transition-transform duration-500 hover:scale-105 hover:rotate-1 group-[.reduce-motion]:hover:transform-none">
                       <Image
-                          src={portraitImage.imageUrl}
-                          alt="A high-quality portrait of Claudio E. Enobas Ese"
-                          width={400}
-                          height={400}
-                          className="object-cover w-full h-full"
-                          priority
-                          data-ai-hint={portraitImage.imageHint}
+                        src={portrait}                    
+                        alt="A high-quality portrait of Claudio E. Enobas Ese"
+                        width={800}                      
+                        height={800}
+                        sizes="(min-width: 1024px) 20rem, (min-width: 640px) 18rem, 16rem"
+                        quality={100}
+                        priority
+                        className="object-cover w-full h-full"
                       />
                       <div className="absolute inset-0 bg-black/10 rounded-full"></div>
                   </div>
