@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="relative isolate overflow-hidden min-h-[calc(100vh-56px)] flex items-center">
       <div className="absolute inset-0 -z-20">
-        <div className="absolute inset-0 bg-background/80 backdrop-blur-sm" />
+        <div className="absolute inset-0 bg-background/80" />
         <div 
           className="absolute inset-0 bg-gradient-to-tr from-accent/10 to-primary/10 animate-gradient-xy"
         />
@@ -46,17 +46,17 @@ export default function Home() {
               </Button>
               <div className="flex items-center gap-x-4">
                   <Button variant="ghost" size="icon" asChild className="group">
-                    <Link href="#" aria-label="LinkedIn" target="_blank">
+                    <Link href="https://www.linkedin.com/in/claudioenobas/" aria-label="LinkedIn" target="_blank">
                       <Linkedin className="h-5 w-5 text-muted-foreground transition-transform duration-300 group-hover:text-foreground group-hover:scale-110" />
                     </Link>
                   </Button>
                    <Button variant="ghost" size="icon" asChild className="group">
-                    <Link href="#" aria-label="GitHub" target="_blank">
+                    <Link href="https://github.com/claudioen" aria-label="GitHub" target="_blank">
                       <Github className="h-5 w-5 text-muted-foreground transition-transform duration-300 group-hover:text-foreground group-hover:scale-110" />
                     </Link>
                   </Button>
                    <Button variant="ghost" size="icon" asChild className="group">
-                    <Link href="mailto:hello@example.com" aria-label="Email">
+                    <Link href="mailto:claudioenobas@gmail.com" aria-label="Email">
                       <Mail className="h-5 w-5 text-muted-foreground transition-transform duration-300 group-hover:text-foreground group-hover:scale-110" />
                     </Link>
                   </Button>
