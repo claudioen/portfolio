@@ -75,7 +75,7 @@ export default function Home() {
                           priority
                           data-ai-hint={portraitImage.imageHint}
                       />
-                      <div className="absolute inset-0 bg-black/10 backdrop-blur-[1px] rounded-full"></div>
+                      <div className="absolute inset-0 bg-black/10 rounded-full"></div>
                   </div>
               </div>
            )}
