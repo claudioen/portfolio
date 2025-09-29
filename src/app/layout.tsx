@@ -5,7 +5,7 @@ import { Footer } from '@/components/layout/Footer';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Portfolio Pro',
+  title: 'Portfolio - Claudio E. Enobas Ese',
   description: 'A professional portfolio website built with Next.js.',
 };
 
