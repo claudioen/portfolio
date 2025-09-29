@@ -1,7 +1,7 @@
 export type Project = {
   id: string;
   title: string;
-  category: 'Dashboards' | 'Automation' | 'Case Studies' | 'Other';
+  category: 'Dashboards' | 'Automation' | 'Case Studies';
   description: string;
   image: {
     src: string;
